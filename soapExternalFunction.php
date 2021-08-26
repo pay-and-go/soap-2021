@@ -44,7 +44,7 @@ $server->register(
 );
 
 function findTollById($request){
-    $endpoint = "http://54.89.0.221:80/graphql";
+    $endpoint = "http://proxy.payandgo.44.197.253.66.nip.io/graphql";
 
     $query = "query {
         tollById(tollId: ".$request["tollId"].") {
